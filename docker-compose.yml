@@ -10,5 +10,5 @@ services:
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=db
-      - MYSQL_USER=yuliya
-      - MYSQL_PASSWORD=1
+      - MYSQL_USER=yulia
+      - MYSQL_PASSWORD=1234
