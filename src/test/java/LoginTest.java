@@ -41,7 +41,6 @@ public class LoginTest {
                 while (rs.next()) {
 
                     val code = rs.getInt("code");
-                    System.out.println(code);
                     fieldSmsCode.setValue(String.valueOf(code));
 
                 }
