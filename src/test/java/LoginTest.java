@@ -17,7 +17,7 @@ public class LoginTest {
     private SelenideElement fieldSmsCode = $("[data-test-id= code] input");
     private SelenideElement buttonSmsCode = $("[data-test-id=\"action-verify\"]");
     private SelenideElement dashboard = $("[data-test-id=\"dashboard\"]");
-
+    int code;
 
     @Test
     void registrationTest() throws SQLException {
@@ -40,7 +40,7 @@ public class LoginTest {
 
                 while (rs.next()) {
 
-                    val code = rs.getInt("code");
+                    code = rs.getInt("code");
 
                 }
             }
